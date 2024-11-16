@@ -54,7 +54,7 @@ public class Enemy {
         }
     }
 
-    //アクセサメゾッド
+    //アクセサメソッド
     public String getName() {
         return name;
     }

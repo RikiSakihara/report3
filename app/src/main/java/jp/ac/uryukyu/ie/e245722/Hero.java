@@ -52,7 +52,7 @@ public class Hero {
         }
     }
 
-    //アクセサメゾッド
+    //アクセサメソッド
     public String getName() {
         return name;
     }
