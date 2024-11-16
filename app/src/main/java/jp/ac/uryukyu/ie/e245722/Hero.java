@@ -64,6 +64,7 @@ public class Hero {
 
     /**
      * hitpointのゲッターメソッド。
+     * @return hitpoint
      */
     public int getHitpoint(){
         return hitPoint;
@@ -71,6 +72,7 @@ public class Hero {
 
     /**
      * attackのゲッターメソッド。
+     * @return attack
      */
     public int getAttack(){
         return attack;
@@ -78,6 +80,7 @@ public class Hero {
 
     /**
      * Deadのゲッターメソッド。
+     * @return dead
      */
     public boolean getDead(){
         return dead;
