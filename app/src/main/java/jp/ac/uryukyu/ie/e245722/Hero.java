@@ -65,4 +65,5 @@ public class Hero {
     public boolean getDead(){
         return dead;
     }
+    
 }
