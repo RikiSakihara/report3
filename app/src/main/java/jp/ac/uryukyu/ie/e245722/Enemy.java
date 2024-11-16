@@ -55,15 +55,31 @@ public class Enemy {
     }
 
     //アクセサメソッド
+
+    /**
+     * nameのゲッターメソッド。
+     */
     public String getName() {
         return name;
     }
+
+    /**
+     * hitpointのゲッターメソッド。
+     */
     public int getHitpoint(){
         return hitPoint;
     }
+
+    /**
+     * attackのゲッターメソッド。
+     */
     public int getAttack(){
         return attack;
     }
+
+    /**
+     * Deadのゲッターメソッド。
+     */
     public boolean getDead(){
         return dead;
     }
