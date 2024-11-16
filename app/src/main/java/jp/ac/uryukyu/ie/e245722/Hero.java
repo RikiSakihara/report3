@@ -53,9 +53,10 @@ public class Hero {
     }
 
     //アクセサメソッド
-    
+
     /**
-     * nameのゲッターメソッド。
+     * Nameのゲッターメソッド。
+     * @return　name
      */
     public String getName() {
         return name;
