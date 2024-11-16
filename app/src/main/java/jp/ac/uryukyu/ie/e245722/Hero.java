@@ -52,7 +52,7 @@ public class Hero {
         }
     }
 
-    //アクセさメゾッド
+    //アクセサメゾッド
     public String getName() {
         return name;
     }
@@ -65,5 +65,5 @@ public class Hero {
     public boolean getDead(){
         return dead;
     }
-    
+
 }
