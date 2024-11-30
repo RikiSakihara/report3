@@ -1,9 +1,8 @@
 package jp.ac.uryukyu.ie.e245722;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class EnemyTest {
+public class WarriorTest {
     /**
      * 倒れたはずの敵は攻撃できないことを検証。
      * 検証手順
@@ -15,9 +14,11 @@ class EnemyTest {
     @Test
     void attackTest() {
         int defaultHeroHp = 100;
-        Hero demoHero = new Hero("デモ勇者", defaultHeroHp, 100);
-        Enemy slime = new Enemy("スライムもどき", 10, 100);
-        demoHero.attack(slime);
+        Warrior demoHero = new Warrior("デモ勇者", defaultHeroHp, 10);
+        Enemy slime = new Enemy("スライムもどき", 45, 100);
+        for (int i = 0 ; i < 3 ; i++){
+        demoHero.attackWithWeponSkill(slime);
+    }
         slime.attack(demoHero);
         assertEquals(defaultHeroHp, demoHero.getHitPoint());
     }
